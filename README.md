@@ -27,22 +27,22 @@ OPTIONS:
 
 Simplest usage;  
 ```sh
-./echo-test req --addr "echo.bora.sh:1337" --data "hello world"
+echo-test req --addr "echo.bora.sh:1337" --data "hello world"
 ```
 
 Multiple the data, like `"hey" * 50`;  
 ```sh
-./echo-test req --addr "echo.bora.sh:1337" --data "hello world" --multiple-data 50
+echo-test req --addr "echo.bora.sh:1337" --data "hello world" --multiple-data 50
 ```
 
 Repeat the request;  
 ```sh  
-./echo-test req --addr "echo.bora.sh:1337" --data "hello world" --repeat 5
+echo-test req --addr "echo.bora.sh:1337" --data "hello world" --repeat 5
 ```
 
 Use multiple servers;  
 ```sh
-./echo-test req --addr "echo.bora.sh:1337,echo.bora.sh:1338" --data "hello world"
+echo-test req --addr "echo.bora.sh:1337,echo.bora.sh:1338" --data "hello world"
 ```
 
 ## Copyright
